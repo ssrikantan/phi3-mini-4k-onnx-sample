@@ -1,4 +1,4 @@
-# Contoso Gaming Customer AI Assistant powered by Phi3-mini-128k onnxruntime
+# Contoso Gaming Customer AI Assistant powered by Phi3-mini-4k onnxruntime
 
 This demo uses the microsoft/Phi-3-mini-4k-instruct-onnx model that uses directml.
 This model is available in Hugging face - [here](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx)
