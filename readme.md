@@ -11,13 +11,15 @@ The steps below are based on the documentation above.
 **This will work only with python 9, since the onnxruntime-genai only works with it**
 
 ```sh
-
-# Download the Model
-huggingface-cli download microsoft/Phi-3-mini-4k-instruct-onnx --include directml/* --local-dir .
-
 # Install the following in a virtual environment that has Python 9
 pip install numpy
 pip install --pre onnxruntime-genai-directml
+
+# other packages required
+pip install huggingface-hub[cli] streamlit azure-search-documents
+
+# Download the Model
+huggingface-cli download microsoft/Phi-3-mini-4k-instruct-onnx --include directml/* --local-dir .
 
 ```
 
